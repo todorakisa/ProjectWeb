@@ -38,7 +38,7 @@
 	color: #41b0d8;
 }
 
-input[type=text] {
+.input1 {
     width: 50%;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -55,6 +55,22 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 
+.input2 {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+	font-family: Helvetica;
+	font-weight: bolder;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
 .transbox 
 {
   margin-left: 10%;
@@ -64,13 +80,31 @@ input[type=text] {
   opacity: 0.9;
 }
 
-.transbox p 
+.transbox4
+{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #6c1a7c;
+  border: 1px solid black;
+  opacity: 0.9;
+}
+
+.specialText 
 {
   margin: 1%;
   font-size: 30px;
   font-family: Rockwell;
   font-weight: bolder;
   color: white;
+}
+
+.smallInfo
+{
+	margin: 1%;
+	font-weight: bolder;
+	font-size: 15px;
+	font-family: Rockwell;
+	color: black;
 }
 
 .blue
@@ -168,6 +202,18 @@ li a:hover:not(.active)
 	font-family: "Courier New", Lucida Console;
 	font-size: 45px;
 	color: #7941ad;
+}
+
+.heading1
+{
+	font-weight: bold;
+	font-family: "Courier New", Lucida Console;
+	font-size: 30px;
+	color: #7941ad;
+	background-color: #000000;
+	text-align: middle;
+	max-width: 50%;
+	border-radius: 50px;
 }
 
 .create {
